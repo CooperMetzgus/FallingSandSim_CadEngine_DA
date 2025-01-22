@@ -53,6 +53,7 @@ void gravity(std::shared_ptr<Engine::engineObject> obj) {
 			ParticleMan::particleGrid[obj->hull.x][obj->hull.y] = true; //Particle Bind
 		}
 	}
+
 }
 
 void keepInBounds(std::shared_ptr<Engine::engineObject> obj) {
