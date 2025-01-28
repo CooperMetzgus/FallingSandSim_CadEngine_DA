@@ -1,0 +1,30 @@
+Add:
+
+(
+	Brush Resizeability
+	List of Materials/Particle Types
+	Particle Type Selection UI
+	Particle Interaction Handling
+	-- Player character of some sort, need to refine the concept
+	Zoom Function
+
+)
+
+Fix:
+
+(
+	Checking Blocked Diagonals
+	Eraser Tool
+)
+
+Concept Breakdown:
+
+(
+----[Brush Resizeability]
+	
+	First we need to create a brush, this might alter the addParticle Function
+	Next I think we'll need a way to place more than one particle at a time
+	We may need to then get a handle on how many pixels to place 
+	Then display it at the mouse position as a part of the brush object
+	
+)
